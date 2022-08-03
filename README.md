@@ -1,4 +1,12 @@
 ### Hi there 👋
+```
+#include <stdio.h>
+int main()
+{
+    printf("Hello World!");
+    return 0;
+}
+```
 
 <!--
 **xiao-luo17/xiao-luo17** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
