@@ -12,9 +12,9 @@
 ### 🍺Something about my Github
 
 <div>
-<img height="137px" src="https://github-readme-stats.vercel.app/api?username=xiao-luo17&show_icons=trueline_height=21&title_color=2ecc71&text_color=FFFFFF&icon_color=blue&&theme=dark" /> 
+<img height="160px" src="https://github-readme-stats.vercel.app/api?username=xiao-luo17&show_icons=trueline_height=21&title_color=2ecc71&text_color=FFFFFF&icon_color=blue&&theme=dark" /> 
 
-<img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xiao-luo17&layout=compact&langs_count=6&title_color=9b59b6&text_color=FFFFFF&icon_color=fff&bg_color=17202a&theme=dark" />
+<img height="160px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xiao-luo17&layout=compact&langs_count=6&title_color=9b59b6&text_color=FFFFFF&icon_color=fff&bg_color=17202a&theme=dark" />
 </div>
 
 ### 🔧My technology stack
