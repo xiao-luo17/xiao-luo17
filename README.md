@@ -7,7 +7,7 @@
 </a>
 </h1>
 
-**My Blog**: [Myblog(小罗の小窝)](https://xiao-luo17.github.io) - [Hexo](https://hexo.io/) || [Butterfly🦋](https://github.com/jerryc127/hexo-theme-butterfly)
+**My Blog**: <a href="https://xiao-luo17.github.io" target="_blank">Myblog(小罗の小窝)</a> - [Hexo](https://hexo.io/) || [Butterfly🦋](https://github.com/jerryc127/hexo-theme-butterfly)
 
 ### 🍺Something about my Github
 
