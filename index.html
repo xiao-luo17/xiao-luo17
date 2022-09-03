@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="./img/avatar.jpg">
+    <script src="js/main.js"></script>
 </head>
 
 <body>
@@ -21,39 +22,36 @@
         </div>
         <div class="info">
             <div class="inner-item">
-                <a target="_blank" href="">
+                <a href="#hello" onclick="helloclick()">
                     <i class="fa fa-child"></i>
                     Hello
                 </a>
             </div>
             <div class="inner-item">
-                <a target="_blank" href="">
+                <a href="#intro" onclick="introclick()">
                     <i class="fa fa-info-circle"></i>
                     说明
                 </a>
             </div>
             <div class="inner-item">
-                <a target="_blank" href="">
+                <a href="#work" onclick="workclick()">
                     <i class="fa fa-cogs"></i>
                     项目
                 </a>
             </div>
             <div class="inner-item">
-                <a target="_blank" href="">
+                <a href="#email" onclick="emailclick()">
                     <i class="fa fa-envelope-o"></i>
                     联系
                 </a>
             </div>
-
         </div>
         <div class="content">
             <h1>WEBSITE</h1>
             <p>海边微风起 等风也等你</p>
         </div>
         <div class="website">
-
             <div class="inner-item">
-
                 <a target="_blank" href="https://xiao-luo17.github.io">
                     <i class="fa fa-rss"></i>
                     个人博客
@@ -64,11 +62,34 @@
                     <i class="fa fa-github"></i>
                     Github
                 </a>
-
             </div>
         </div>
     </header>
-    <div id="main"></div>
+    <div id="main" style="display: none">
+        <div class="main-items" id="hello" style="display: none">
+            <h2>INSTRUCTIONS</h2>
+            <p>相遇总留在过去，如果能不长大就好了啊，可是时光在身后挡住退路。 ——《未闻花名》</p>
+        </div>
+        <div class="main-items" id="intro" style="display: none">
+            <h2>INSTRUCTIONS</h2>
+            <p>
+                我的一些网站（开发中）：这里还是空荡荡的，什么也没有</br>
+                个人博客：写点东西...但是咕咕咕~~</br>
+            </p>
+        </div>
+        <div class="main-items" id="work" style="display: none">
+            <h2>INSTRUCTIONS</h2>
+            <p>肝小元 | 微信小程序（开发中）</p>
+        </div>
+        <div class="main-items" id="email" style="display: none">
+            <h2>INSTRUCTIONS</h2>
+            <div class="img"></div>
+            <p>
+                邮箱：452966434@qq.com</br>
+                博客：https://xiao-luo17.github.io
+            </p>
+        </div>
+    </div>
     <footer id="footer">
         <p class="copyright">
             © 2021-Now | XiaoLuo
