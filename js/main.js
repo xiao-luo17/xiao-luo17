@@ -19,12 +19,13 @@ function workclick() {
 function emailclick() {
     clickall();
     document.getElementById('email').style.display="flex";
+
 }
 function back() {
     document.getElementById('wrapper').style.justifyContent="space-between";
     document.getElementById('header').style.display="flex";
     document.getElementById('footer').style.display="flex";
-    document.getElementById('main').style.display="none"
+    document.getElementById('main').style.display="none";
     document.getElementById('hello').style.display="none";
     document.getElementById('intro').style.display="none";
     document.getElementById('work').style.display="none";
@@ -37,3 +38,12 @@ document.addEventListener('mousedown', (e) => {
     } else {
     }
 })
+function f() {
+    imgArray=['url("./img/background0.jpg")','url("./img/background1.jpg")','url("./img/background2.jpg")',
+        'url("./img/background3.jpg")','url("./img/background4.jpg")','url("./img/background5.jpg")',
+        'url("./img/background6.jpg")','url("./img/background7.jpg")','url("./img/background8.png")',
+        'url("./img/background9.png")','url("./img/background10.jpg")']
+    a=Math.floor(Math.random()*10);
+    var d = document.getElementById('bg');
+    d.style.backgroundImage = imgArray[a];
+}
